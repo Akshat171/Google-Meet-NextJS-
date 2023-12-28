@@ -1,40 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# HangOut
+![image](https://github.com/Akshat171/Google-Meet-NextJs-/assets/81281246/0ee53429-3206-401c-af93-5da160f1a669)
+![image](https://github.com/Akshat171/Google-Meet-NextJs-/assets/81281246/deecafc5-f24b-4351-9651-144b93495ffd)
 
-## Getting Started
+## About
+This project is an employee management system for a fictional tech company called TechWorks. I had fun building this out.This exciting project allowed me to dive deep into the world of web sockets and gain first-hand experience on how synchronized, instantaneous communication is made possible on the web.
 
-First, run the development server:
+I thoroughly enjoyed the process of architecting the real-time flow of data between server and multiple clients. Debugging those rapid state changes as users connected and disconnected was highly stimulating. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies
+- React
+- JavaScript
+- Next.js
+- Socket.io
+- Tailwind CSS
+- Peer.js
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
+- Multiple people can join
+- Everyone can see each other
+- User can create a room or join using invite-join-ID
+- Different controllers like Mic on/off, video on/off, and leave meeting are integrated.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Live Video
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+https://github.com/Akshat171/Google-Meet-NextJs-/assets/81281246/add60368-c23c-468b-a221-ad4e72ceafa9
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
